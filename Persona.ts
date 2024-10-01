@@ -1,4 +1,4 @@
-class Persona {
+export class Persona {
     nombre: string;
     edad: number;
     saluda: string;
@@ -13,5 +13,3 @@ class Persona {
         console.log(`hola, me llamo ${this.nombre} y tengo ${this.edad} años`)
     }
 }
-const Persona1 = new Persona(`pedro`, 15, `hola`);
-Persona1.saludar();
