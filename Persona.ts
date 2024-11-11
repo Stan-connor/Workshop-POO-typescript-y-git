@@ -13,3 +13,5 @@ saludar(){
 }
 
 }
+const Persona1 = new Persona(`pedro`, 15, `hola`);
+Persona1.saludar();
