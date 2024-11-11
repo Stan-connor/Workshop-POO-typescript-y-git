@@ -1,0 +1,22 @@
+import { Persona } from "./Persona";
+
+const Persona1 = new Persona(`pedro`, 15, `hola`);
+Persona1.saludar();
+const Persona2 = new Persona(`luisa`, 15, `hola`);
+Persona2.saludar();
+const Persona3 = new Persona(`camila`, 13, `hola`);
+Persona3.saludar();
+const Persona4 = new Persona(`david`, 16, `hola`);
+Persona4.saludar();
+const Persona5 = new Persona(`carlos`, 17, `hola`);
+Persona5.saludar();
+const Persona6 = new Persona(`laura`, 18, `hola`);
+Persona6.saludar();
+const Persona7 = new Persona(`camilo`, 16, `hola`);
+Persona7.saludar();
+const Persona8 = new Persona(`felipe`, 12, `hola`);
+Persona8.saludar();
+const Persona9 = new Persona(`yonier`, 19, `hola`);
+Persona9.saludar();
+const Persona10 = new Persona(`isabel`, 17, `hola`);
+Persona10.saludar();
